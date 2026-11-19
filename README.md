@@ -50,7 +50,7 @@ Follow these steps to run the project on your local machine.
 
 Download and install XAMPP from the official website:
 
-[https://www.apachefriends.org/](https://www.apachefriends.org/)
+[Download XAMPP](https://www.apachefriends.org/)
 
 ### 2. Clone the Repository
 
@@ -72,15 +72,15 @@ C:/xampp/htdocs/employee-management-system/
 
 ### 4. Start XAMPP Services
 
-Open the XAMPP Control Panel and start:
+Open the XAMPP Control Panel and start the following services:
 
 - Apache
 - MySQL
 
-### 5. Create the Database
+### 5. Create and Import the Database
 
 1. Open your browser.
-2. Navigate to `http://localhost/phpmyadmin/`.
+2. Navigate to [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/).
 3. Create a new database named:
 
 ```sql
@@ -96,10 +96,11 @@ employee_management
 
 Open `db.php` and configure your database credentials according to your local environment.
 
-Example:
+**Example:**
 
 ```php
 <?php
+
 $conn = mysqli_connect(
     "localhost",
     "root",
@@ -110,6 +111,7 @@ $conn = mysqli_connect(
 if (!$conn) {
     die("Database connection failed: " . mysqli_connect_error());
 }
+
 ?>
 ```
 
@@ -157,7 +159,11 @@ Your Employee Management System is now ready to use!
 
 ## 👨‍💻 Author
 
+**[Virabhadra Khobare](https://github.com/VirabhadraKhobare)**
+
 Developed as a PHP and MySQL Web Development Project.
+
+- GitHub: [VirabhadraKhobare](https://github.com/VirabhadraKhobare)
 
 ## 📄 License
 
