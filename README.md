@@ -159,8 +159,6 @@ Your Employee Management System is now ready to use!
 
 ## 👨‍💻 Author
 
-**[Virabhadra Khobare](https://github.com/VirabhadraKhobare)**
-
 Developed as a PHP and MySQL Web Development Project.
 
 - GitHub: [VirabhadraKhobare](https://github.com/VirabhadraKhobare)
